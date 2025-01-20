@@ -1,0 +1,21 @@
+.signup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: red;
+    font-weight: 10;
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 10px; /* Space between the button and text */
+}
+
+.signup-btn {
+    border-radius: 14px;
+    border: 2px solid red; /* Red border around the button */
+    color: red;
+    padding: 10px 20px; /* Padding to ensure the button has space around the text */
+}
+
+.signup h4 {
+    border: 2px solid red; /* Red border around the text */
+    padding: 5px 10px; /* Padding to make the border around the text visible */
+}
