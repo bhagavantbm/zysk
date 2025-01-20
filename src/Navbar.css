@@ -459,7 +459,7 @@ flex-grow: 0;
 
   }
   .features-grid2{
-    margin-top: 30px;
+    margin-top: 60px;
   }
 
 
@@ -1273,5 +1273,317 @@ margin-left: -380px;
   display: block;
   margin: 0 auto 10px;
   height: 20px;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f4f4f4;
+}
+
+.app {
+  display: flex;
+  width: 80%;
+  height: 80vh;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  margin-top: 50px;
+  border-radius: 14px;
+}
+
+.left-panel {
+  width: 40%;
+  background-color: #1e1e1e;
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.greeting {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.option {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.option:hover {
+  transform: scale(1.05);
+}
+
+.student {
+  background-color: #444;
+}
+
+.professional {
+  background-color: #333;
+}
+
+.icon {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.right-panel {
+  width: 60%;
+  background-color: #fff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.chat {
+  width: 100%;
+}
+
+.message {
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.message.bot {
+  background-color: #f4f4f4;
+  display: flex;
+  align-items: center;
+}
+
+.message.bot .bot-icon {
+  margin-right: 10px;
+}
+
+.message.user {
+  background-color: #6c63ff;
+  color: white;
+  align-self: flex-end;
+}
+@media (max-width: 768px) {
+  .app {
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+  }
+
+  .left-panel,
+  .right-panel {
+    width: 100%;
+    height: 50%;
+  }
+
+  .left-panel {
+    align-items: center;
+    text-align: center;
+  }
+
+  .options {
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .option {
+    padding: 10px;
+    flex: 1;
+    text-align: center;
+  }
+
+  .icon {
+    font-size: 24px;
+  }
+
+  .right-panel {
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px;
+  }
+
+  .chat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .message {
+    width: 90%;
+    text-align: center;
+  }
+
+  .message.user {
+    align-self: center;
+  }
+}
+
+
+.company-section {
+  text-align: center;
+  padding: 20px;
+  background-color: #ffffff;
+  margin-top: 40px;
+  width: 100%;
+}
+
+.company-text {
+  font-size: 18px;
+  color: #555555;
+  margin-bottom: 20px;
+}
+
+.company-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+
+}
+
+.company-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.company-logo img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.company-logo span {
+  font-size: 14px;
+  color: #333333;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .company-text {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+
+  .company-logos {
+    gap: 20px;
+  }
+
+  .company-logo img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .company-logo span {
+    font-size: 12px;
+  }
+}
+
+.testimonial {
+width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  margin-top: 40px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.logo-image {
+  width: 30px;
+  height: 20px;
+}
+features-grid2
+
+.quote {
+  font-size: 24px;
+  font-weight: 500;
+  color: #1a1a1a;
+  margin: 20px 0;
+  line-height: 1.5;
+}
+
+.author {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.author-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.author-details {
+  text-align: left;
+}
+
+.author-name {
+  font-size: 16px;
+  font-weight: bold;
+  color: #1a1a1a;
+}
+
+.author-role {
+  font-size: 14px;
+  color: #666;
+}
+
+@media (max-width: 600px) {
+  .quote {
+    font-size: 18px;
+  }
+
+  .author {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .author-details {
+    text-align: center;
+  }
 }
 

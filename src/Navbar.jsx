@@ -39,13 +39,67 @@ export default function ZyskWebsite() {
           <button>Sign up</button>
         </div>
       </div>
-      <div className="image">
-        <img  src="../public/statics/images/image1.png" alt="" />
-        
+      <div className="app">
+      {/* Left Panel */}
+      <div className="left-panel">
+        <div className="logo">testmyskills</div>
+        <div className="greeting">Hello, Conor</div>
+        <h2>Who are you?</h2>
+        <div className="options">
+          <div className="option student">
+            <div className="icon">📚</div>
+            <h3>Student</h3>
+            <p>Who is still studying</p>
+          </div>
+          <div className="option professional">
+            <div className="icon">💼</div>
+            <h3>Professional</h3>
+            <p>One who is working</p>
+          </div>
+        </div>
       </div>
-      <div className="brand-image">
-        <img src="../public/statics/images/image2.png" alt="" />
+
+      {/* Right Panel */}
+      <div className="right-panel">
+        <div className="chat">
+          <div className="message bot">
+            <span className="bot-icon">🦉</span>
+            Welcome Conor! 🎉 It's great to have you here
+          </div>
+          <div className="message user">I'm a student</div>
+        </div>
       </div>
+    </div>
+    <div class="company-section">
+  <p class="company-text">Join 4,000+ companies already growing</p>
+  <div class="company-logos">
+    <div class="company-logo">
+      <img src="boltshift-logo.png" alt="Boltshift"/>
+      <span>Boltshift</span>
+    </div>
+    <div class="company-logo">
+      <img src="lightbox-logo.png" alt="Lightbox"/>
+      <span>Lightbox</span>
+    </div>
+    <div class="company-logo">
+      <img src="featherdev-logo.png" alt="FeatherDev"/>
+      <span>FeatherDev</span>
+    </div>
+    <div class="company-logo">
+      <img src="spherule-logo.png" alt="Spherule"/>
+      <span>Spherule</span>
+    </div>
+    <div class="company-logo">
+      <img src="globalbank-logo.png" alt="GlobalBank"/>
+      <span>GlobalBank</span>
+    </div>
+    <div class="company-logo">
+      <img src="nietzsche-logo.png" alt="Nietzsche"/>
+      <span>Nietzsche</span>
+    </div>
+  </div>
+</div>
+
       
       <div>
         <h4 className="Features">Features</h4>
@@ -106,10 +160,31 @@ export default function ZyskWebsite() {
       </div>
       
       {/* Third page */}
-      <div className="third-page">
-        <img src="../public/statics/images/image9.png" alt="" />
-        
+      <div className="testimonial">
+      <div className="logo">
+        <img
+          src="https://via.placeholder.com/50" // Replace with the actual logo URL
+          alt="Sisyphus Logo"
+          className="logo-image"
+        />
+        <h2>Sisyphus</h2>
       </div>
+      <p className="quote">
+        We’ve been using Untitled to kick start every new project and can’t
+        imagine working without it.
+      </p>
+      <div className="author">
+        <img
+          src="https://via.placeholder.com/50" // Replace with the actual author image
+          alt="Candice Wu"
+          className="author-avatar"
+        />
+        <div className="author-details">
+          <p className="author-name">Candice Wu</p>
+          <p className="author-role">Product Manager, Sisyphus</p>
+        </div>
+      </div>
+    </div>
 
       {/* fourth page */}
       <div className="main">
@@ -181,12 +256,7 @@ export default function ZyskWebsite() {
               <p>Can’t find the answer you’re looking for? Please chat to our friendly team.</p>
               <button>Get in touch</button>
             </div>
-            <div className="blog">
-              <p className="our-blog">our Blog</p>              <button className="view">View posts</button>
-              <h1 className="latest">Lastest blog posts</h1>
-              <p style={{color:"black"}}>Tool and strategies modern teams need to help their companies grow.</p>
-            </div>
-           
+            
           </div>
           <div className="three-img">
           <img src="../public/statics/images/image15.png" alt="" />
