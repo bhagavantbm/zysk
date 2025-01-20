@@ -177,7 +177,7 @@ export default function ZyskWebsite() {
       </p>
       <div className="author">
         <img
-          src="../public/images/image9.png" // Replace with the actual author image
+          src="../images/image9.png" // Replace with the actual author image
           alt="Candice Wu"
           className="author-avatar"
         />
