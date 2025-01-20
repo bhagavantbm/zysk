@@ -8,7 +8,9 @@ export default function ZyskWebsite() {
     <div className="zysk-container">
       {/* Header */}
       <header className="zysk-header">
-        <div className="logo"><img style={{height:"30px"}} src="../public/images/image0.png" alt="" /></div>
+      <div className="logo">
+  <img style={{height: "30px"}} src="/images/image0.png" alt="" />
+</div>
             <nav className="nav-links">
               <a href="#Home">Home</a>
               <a href="#products" className="products">
@@ -19,7 +21,7 @@ export default function ZyskWebsite() {
               </a>
               <a href="#pricing">Pricing</a>
             </nav>
-        <div className="profile-icon"><button><img style={{height:"40px",width:"40px",borderRadius:"50%"}} src="../public/images/profile.jpeg"/></button></div>
+        <div className="profile-icon"><button><img style={{height:"40px",width:"40px",borderRadius:"50%"}} src="../images/profile.jpeg"/></button></div>
       </header>
       <div className="features">
         <button className="new-features">New features</button><p className="">Check out the team dashboard </p><ArrowRightAltIcon/>
@@ -74,27 +76,27 @@ export default function ZyskWebsite() {
   <p class="company-text">Join 4,000+ companies already growing</p>
   <div class="company-logos">
     <div class="company-logo">
-      <img src="boltshift-logo.png" alt="Boltshift"/>
+      <img src="../images/image19.png" alt="Boltshift"/>
       <span>Boltshift</span>
     </div>
     <div class="company-logo">
-      <img src="lightbox-logo.png" alt="Lightbox"/>
+      <img src="../images/image20.png" alt="Lightbox"/>
       <span>Lightbox</span>
     </div>
     <div class="company-logo">
-      <img src="featherdev-logo.png" alt="FeatherDev"/>
+      <img src="../images/image21.png" alt="FeatherDev"/>
       <span>FeatherDev</span>
     </div>
     <div class="company-logo">
-      <img src="spherule-logo.png" alt="Spherule"/>
+      <img src="../images/image22.png" alt="Spherule"/>
       <span>Spherule</span>
     </div>
     <div class="company-logo">
-      <img src="globalbank-logo.png" alt="GlobalBank"/>
+      <img src="../images/image23.png" alt="GlobalBank"/>
       <span>GlobalBank</span>
     </div>
     <div class="company-logo">
-      <img src="nietzsche-logo.png" alt="Nietzsche"/>
+      <img src="../images/image24.png" alt="Nietzsche"/>
       <span>Nietzsche</span>
     </div>
   </div>
@@ -114,21 +116,21 @@ export default function ZyskWebsite() {
       <div className="features-section">
         <div className="features-grid ">
           <div className="feature-card">
-            <img className="img3" style={{marginBottom:"-10px"}} src="../public/images/image3.png" alt="" />
+            <img className="img3" style={{marginBottom:"-10px"}} src="../images/image3.png" alt="" />
             <h3>Share team inboxes</h3>
             <p>
             Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and in the loop.
             </p>
           </div>
           <div className="feature-card">
-          <img className="img3" style={{marginBottom:"-10px"}} src="../public/images/image4.png" alt="" />
+          <img className="img3" style={{marginBottom:"-10px"}} src="../images/image4.png" alt="" />
             <h3>Deliver instant answers</h3>
             <p>
             An all-in-one customer service platform that helps you balance everything your customers need to be happy.
             </p>
           </div>
           <div className="feature-card">
-          <img className="img3" style={{marginBottom:"-10px"}} src="../public/images/image5.png" alt="" />
+          <img className="img3" style={{marginBottom:"-10px"}} src="../images/image5.png" alt="" />
             <h3>Manage your team with reports</h3>
             <p>
             Measure what matters with Untitled’s easy-to-use reports. You can filter, export, and drilldown on the data in a couple clicks.
@@ -137,20 +139,20 @@ export default function ZyskWebsite() {
         </div>
         <div className="features-grid  features-grid2">
           <div className="feature-card">
-          <img className="img3" style={{marginBottom:"-10px"}} src="../public/images/image6.png" alt="" />
+          <img className="img3" style={{marginBottom:"-10px"}} src="../images/image6.png" alt="" />
             <h3>Connect with customers</h3>
             <p>
               Solve a problem or close a sale in real-time with chat. If no one is available, customers are seamlessly routed to email without confusion.            </p>
           </div>
           <div className="feature-card">
-          <img className="img3" style={{marginBottom:"-10px"}} src="../public/images/image7.png" alt="" />
+          <img className="img3" style={{marginBottom:"-10px"}} src="../images/image7.png" alt="" />
             <h3>Connect the tools you already use</h3>
             <p>
             Explore 100+ integrations that make your day-to-day workflow more efficient and familiar. Plus, our extensive developer tools.
             </p>
           </div>
           <div className="feature-card">
-          <img className="img3" style={{marginBottom:"-10px"}} src="../public/images/image8.png" alt="" />
+          <img className="img3" style={{marginBottom:"-10px"}} src="../images/image8.png" alt="" />
             <h3>Our people make the difference</h3>
             <p>
             We’re an extension of your customer service team, and all of our resources are free. Chat to our friendly team 24/7 when you need help.
@@ -163,7 +165,7 @@ export default function ZyskWebsite() {
       <div className="testimonial">
       <div className="logo">
         <img
-          src="https://via.placeholder.com/50" // Replace with the actual logo URL
+          src="../images/image2.png" // Replace with the actual logo URL
           alt="Sisyphus Logo"
           className="logo-image"
         />
@@ -175,7 +177,7 @@ export default function ZyskWebsite() {
       </p>
       <div className="author">
         <img
-          src="https://via.placeholder.com/50" // Replace with the actual author image
+          src="../public/images/image9.png" // Replace with the actual author image
           alt="Candice Wu"
           className="author-avatar"
         />
@@ -251,7 +253,7 @@ export default function ZyskWebsite() {
     <div className="faq-answer">
             </div>
             <div className="fifth-page">
-              <img className="img-1" src="../public/images/image14.png" alt="" />
+              <img className="img-1" src="../images/image14.png" alt="" />
         <h4>Still have questions? </h4>
               <p>Can’t find the answer you’re looking for? Please chat to our friendly team.</p>
               <button>Get in touch</button>
@@ -259,9 +261,9 @@ export default function ZyskWebsite() {
             
           </div>
           <div className="three-img">
-          <img src="../public/images/image15.png" alt="" />
-          <img src="../public/images/image16.png" alt="" />
-          <img src="../public/images/image17.png" alt="" />
+          <img src="../images/image15.png" alt="" />
+          <img src="../images/image16.png" alt="" />
+          <img src="../images/image17.png" alt="" />
           </div>
           <div className="trial">
             <h1>Start your free trial</h1>
@@ -350,7 +352,7 @@ export default function ZyskWebsite() {
         </div>
       </div>
             <div>
-              <img style={ {height:"65px",width:"100%",bottom:0}}  src="../public/images/image18.png" alt="" />
+              <img style={ {height:"65px",width:"100%",bottom:0}}  src="../images/image18.png" alt="" />
  
       </div>
         
